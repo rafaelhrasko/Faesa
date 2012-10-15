@@ -1,0 +1,23 @@
+Os integrantes do grupo são:
+
+Hallen Alfredo Rischter
+Rafael Hrasko
+Winston Rosetti Vilela
+
+-------------------------
+
+Como compilar:
+
+- Os projetos foram criados no netbeans, então usando netbeans basta abrir os projetos, caso seja usado outro IDE, basta criar cada projeto e incluir os códigos fonte da pasta scr.
+- Comum: primeiro compilar o projeto comum.
+- Servidor: incluir no projeto Servidor como biblioteca o arquivo .jar gerado pelo projeto Comum, as classes do Comum são usadas no Servidor, em seguida compilar o servidor.
+- Cliente: da mesma forma, o Cliente inclui o Comum como biblioteca, então é possível compilar.
+
+Como executar:
+
+- Servidor: executar o arquivo jar, irá exibir na saída padrão todas as informações do servidor, não há interação com o usuário.
+- Cliente: executar o arquivo jar, irá exibir na saída padrão todas as informações do cliente, irá exibir uma janela pedindo um ID, digitar um número inteiro como 1, 2 ou 3. O cliente considerará o diretório de downloads como C:\downloads\id\, onde id é o número digitado, exemplo: C:\downloads\2\, e o diretório de arquivos temporários e informações de downloads é um subdiretório de nome "temp" exemplo C:\downloads\2\temp. Será exibida uma janela de entrada pedindo um comando, os comandos disponíveis são:
+
+- morrer, m, fechar, x, kill ou quit -> finaliza o cliente
+- espera ou wait -> executa sleep na thead
+- download ou d -> executa um download, em seguida digitar nome do pedaço do arquivo, em seguida virá na console os arquivos disponíveis listados enumerados apartir do zero, digitar o número inteiro correspondente ao arquivo desejado, o download iniciará.

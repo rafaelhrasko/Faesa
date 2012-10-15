@@ -1,0 +1,105 @@
+10
+
+dir
+0
+https://subversion.assembla.com/svn/compiladores-faesa/workplace/tarefa8
+https://subversion.assembla.com/svn/compiladores-faesa
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1b4934aa-ddd0-41a9-8b2c-62703cb5590d
+
+exemplo1.$c
+file
+
+
+
+add
+
+.classpath
+file
+
+
+
+add
+
+exemplo2.$c
+file
+
+
+
+add
+
+exemplo3.$c
+file
+
+
+
+add
+
+exemplo4.$c
+file
+
+
+
+add
+
+exemplo5.$c
+file
+
+
+
+add
+
+.project
+file
+
+
+
+add
+
+src
+dir
+
+
+
+add
+
+bin
+dir
+
+
+
+add
+
+teste.$c
+file
+
+
+
+add
+
+.settings
+dir
+
+
+
+add
+

@@ -1,0 +1,29 @@
+Var inteiro Valor,a,b,c,d,e,f,g,x,y,z;
+   Var string s1,s2,s3;
+   
+   Valor := 6 + 5 - (3 - 2) - 2 * 4;
+   a := x + 1 * 2 ^ 4;
+   b := 1 + 2 * 3 ^ x;
+   c := 1 ^ 2 * 3 + x;
+   d := x ^ 2 * 3 + 4;
+   // TODO não sabia o funcionamento do --, deixei como estava. Precisa ser revisado('e' e 'f')
+   e := -3--2;
+   f <- x--2;
+   g := 1 + x * 2 > 3 - y  || 4 == z && 5 + 1 < ( 6 + z ) *
+        ( 7 - ( 8 - 9 )) && !!! (x > y) + z;
+   s1 := "oi";
+   s2 := "mundo";
+   s3 := s1 + " " + s2 + "!";
+   /* TODO verificar se a linguagem permitirá colocar write com vários parametros ou tem que repetir
+   exibe para todas as variaveis*/
+   exibe Valor;
+   exibe a;
+   exibe b;
+   exibe c;
+   exibe d;
+   exibe e; 
+   exibe f;
+   exibe g;
+   exibe s1;
+   exibe s2;
+   exibe s3;

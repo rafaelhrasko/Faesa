@@ -1,0 +1,34 @@
+Var inteiro dia1, mes1, ano1, dia2, mes2, ano2;
+Var string relacao;
+
+dia1 := leia ("Entre com o dia da primeira data:");
+mes1 := leia ("Entre com o mes da primeira data:");
+ano1 := leia ("Entre com o ano da primeira data:");
+dia2 := leia ("Entre com o dia da primeira data:");
+mes2 := leia ("Entre com o mes da primeira data:");
+ano2 := leia ("Entre com o ano da primeira data:");
+
+if (ano1 > ano2)
+{
+	relacao := "maior";
+}else if (ano1 < ano2)
+{
+	relacao := "menor";
+}else if (mes1 > mes2)
+{
+	relacao := "maior";
+}else if (mes1 < mes2)
+{
+	relacao := "menor";
+}else if (dia1 > dia2)
+	relacao := "maior";
+}else if (dia1 < dia2)
+	relacao := "menor";
+}else
+	relacao := "igual";
+}end_if;
+}end_if;
+}end_if;
+}end_if;
+}end_if;
+}end_if;

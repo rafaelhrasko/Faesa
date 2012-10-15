@@ -1,0 +1,16 @@
+// calcula media de muitos valores
+   Var inteiro soma, valor, qtde;
+   qtde := read_real ("quantos valores:");
+   soma := 0;
+   //TODO no original, contador não foi declarado. Verificar se criará antes ou na linha em que é usado.
+   cont := 1;
+   while (cont <= qtde) 
+	{
+   //TODO frase criada agora. não tinha no original
+   valor := read_real ("entre com um valor");
+   soma := soma + valor;
+   }
+   end_while;
+   //TODO verificar se ele fará calculos aritméticos no write, contando como uma váriavel,
+   //se usar, criar uma var para calcular soma/qtde e exibi-la. Abaixo fiz considerando que aceita;
+   write ("Média: ".(soma/qtde))
